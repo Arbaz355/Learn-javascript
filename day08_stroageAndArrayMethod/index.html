@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // local Storage, session Storage, cookies
+        const person = {
+            name: "arbaz",
+            role: "react dev"
+        }
+        localStorage.setItem("person", JSON.stringify(person))
+        localStorage.getItem("person");
+        localStorage.removeItem("person")
+
+        sessionStorage.setItem("name", "arbaz");
+        sessionStorage.getItem("name");
+        sessionStorage.removeItem("name");
+
+        sessionStorage.clear();
+        localStorage.clear(); 
+    </script>
+</body>
+
+</html>
