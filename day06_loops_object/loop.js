@@ -51,6 +51,5 @@ const copyObject = JSON.parse(JSON.stringify(person));
 console.log(copyObject);
 
 // methods 2) structured.clone
-
 const copyPersonData = structuredClone(person);
 console.log(copyPersonData);
