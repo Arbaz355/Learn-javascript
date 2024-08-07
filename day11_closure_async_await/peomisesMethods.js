@@ -13,4 +13,3 @@ Promise.all([promise1, promise2, promise3]).then((values) => {
 Promise.any([promise1, promise2, promise3]).then((res) => {console.log(res)}).catch((err) => console.log(err));
 
 Promise.allSettled([promise1, promise2, promise3]).then((res) => console.log(res)).catch((err) => console.error(err))
-
