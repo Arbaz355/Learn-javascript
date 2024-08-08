@@ -6,8 +6,10 @@
 
 const name = "arbaz";
 
+const lastName = "akhter"
+
 String.prototype.firstCharCapital = function (){
-    return name.charAt(0).toUpperCase() + name.slice(1, name.length).toLowerCase();
+    return this.charAt(0).toUpperCase() + this.slice(1, this.length).toLowerCase();
 }
 
 String.prototype.sayHello = function (){
